@@ -58,29 +58,29 @@ public class LoginTest extends BaseTest{
 		
 	}
 	
-	public void testLoginWithInvalidCredentials()
-	{
-		Log.info("Starting login test....");
-		test=ExtentReportManager.createTest("Login Test with invalid credentials");
+//	public void testLoginWithInvalidCredentials()
+//	{
+//		Log.info("Starting login test....");
+//		test=ExtentReportManager.createTest("Login Test with invalid credentials");
+//		
+//		test.info("Navigated to URL..");
+//		LoginPage loginpage=new LoginPage(driver);
+//		
+//		
+//		Log.info("Adding credentials");
+//		test.info("Adding credentials");
+//		loginpage.enterEmail("admin@yourstore.com");
+//		loginpage.enterPassword("admin");
+//		test.info("Clicking on Login button");
+//		loginpage.clickLogin();
+//		
+//		System.out.println("Title of page is : "+driver.getTitle());
+//		test.info("Verifing page title");
+//		Assert.assertEquals(driver.getTitle(), "nopCommerce demo store.. Login");
+//		Log.info("Verified page title..");
+//		test.pass("Login successfull");
 		
-		test.info("Navigated to URL..");
-		LoginPage loginpage=new LoginPage(driver);
-		
-		
-		Log.info("Adding credentials");
-		test.info("Adding credentials");
-		loginpage.enterEmail("admin@yourstore.com");
-		loginpage.enterPassword("admin");
-		test.info("Clicking on Login button");
-		loginpage.clickLogin();
-		
-		System.out.println("Title of page is : "+driver.getTitle());
-		test.info("Verifing page title");
-		Assert.assertEquals(driver.getTitle(), "nopCommerce demo store.. Login");
-		Log.info("Verified page title..");
-		test.pass("Login successfull");
-		
-	}
+	//}
 	
 	
 
